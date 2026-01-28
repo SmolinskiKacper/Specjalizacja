@@ -10,4 +10,4 @@ def sito(n):
                 for j in range(i,len(numbers), i):
                     numbers[j] = False
     return prime_numbers
-print(sito(195))
+print(sito(int(input("Podaj ostatnią liczbę, aż do której chcesz zastosować sito Eratostenesa."))))
